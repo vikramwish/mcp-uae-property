@@ -1,0 +1,40 @@
+{
+  "name": "mcp-uae-property",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for UAE property market analytics, Dubai Land Department fees, mortgage modeling, and rental yields",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-uae-property": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dubai",
+    "uae",
+    "real-estate",
+    "property-investment",
+    "dld",
+    "mortgage-calculator",
+    "claude",
+    "gemini"
+  ],
+  "author": "Vikram Viswanath <https://github.com/vikramwish>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
